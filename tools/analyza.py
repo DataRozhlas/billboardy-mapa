@@ -8,11 +8,19 @@ d = pd.read_excel('./billboardy_rsd_gis.xls')
 it = d.to_dict(orient='index')
 
 # %%
-len(d)
-
+ku = pd.read_csv('./VAZ0063_0100_CS.csv', encoding='windows-1250').set_index('TEXT1').TEXT2.to_dict()
 
 # %%
-d.STAV.value_counts(normalize=True)
+
+# %%
+def ass(val):
+    try:
+        return ku[val]
+    except:
+        print(val)
+        return None
+
+d['KATASTRÁLNÍ ÚZEMÍ'].apply(lambda x: ass(x))
 
 # %%
 d['TYP ZAŘÍZENÍ'].value_counts()

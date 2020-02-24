@@ -64,6 +64,8 @@ map.on('load', () => {
     'data': host + '/data/data.json'
   })
 
+
+/*
   map.addLayer(
     {
       'id': 'nehody-heat',
@@ -111,6 +113,7 @@ map.on('load', () => {
       }
     }
   )
+  */
 
   map.addLayer(
     {
@@ -119,7 +122,7 @@ map.on('load', () => {
       'source': 'nehody',
       'minzoom': 5,
       'paint': {
-        'circle-radius': 10,
+        'circle-radius': 8,
         // barva podle stavu zarizeni
         'circle-color': [
           'match', 
@@ -167,7 +170,6 @@ map.on('click', e => {
   map.scrollZoom.enable()
   const d = map.queryRenderedFeatures(e.point, { layers: ['nehody-point'] })
   if (d.length > 0) {
-    console.log(d[0].properties )
     document.getElementById('legend').innerHTML = `<b>Komunikace ${d[0].properties.kom}, ${d[0].properties.stan}. km</b><br>Stav: ${d[0].properties.stav}<br>Typ zařízení: ${d[0].properties.typ}`
   }
 })
