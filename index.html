@@ -204,11 +204,13 @@
 		<main id="main" class="main" role="main">	
 		<article role="article" class="b-data"> 			
 			<div class="b-data__content" id="content">
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.7.0/mapbox-gl.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
+
   <script type="text/javascript">
     document.getElementsByTagName('article')[0].classList.add('b-data--no-img');
   </script>
-  <style>ol.snowfall,ul.snowfall{list-style:initial!important;font-size:medium!important;line-height:1.5!important}ol.snowfall>li,ul.snowfall>li{background:0 0!important;margin:0!important;padding:0!important}hr.snowfall{max-width:none!important}</style>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.7.0/mapbox-gl.css"><style>ol.snowfall,ul.snowfall{list-style:initial!important;font-size:medium!important;line-height:1.5!important}ol.snowfall>li,ul.snowfall>li{background:0 0!important;margin:0!important;padding:0!important}hr.snowfall{max-width:none!important}#mapa_billboardy{width:100%;height:80vh}#legend{background-color:#fff;max-width:70vw;padding:5px;border-radius:10px;margin-top:10px;margin-left:10px}#inp-geocode{width:20%;min-width:140px;padding:6px 10px;margin:3px;box-sizing:border-box;border-radius:0;border:1px solid;transition:border-color .15s ease-in-out}#inp-geocode:invalid{border-color:red}#inp-btn{margin-left:10px;padding:.375rem .75rem;color:#fff;background-color:#6c757d;border-color:#6c757d;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;border-style:none}#inp-btn:hover{color:#fff;background-color:#5a6268;border-color:#545b62}</style>
 
   <div class="row-main row-main--article">
     <h1 class="b-data__title b-data__title--sm" id="snfl-title-div">
@@ -230,33 +232,16 @@
   <!--[[ZPRAVY_SNOWFALL_METADATA:]]-->
 
   <div class="row-main row-main--narrow">
-    <figure class="b-detail__img"><img src="https://interaktivni.rozhlas.cz/brexit/media/cover.jpg" width="100%" /><figcaption>Foto <a href='https://ctk.cz'>ČTK</a></figcaption></figure>
-    <div class="b-inline b-inline--left"><div class="b-inline__wrap"><div class="b-inline__content"><div class="text-sm">
-    <p>
-    <b>KAREL HYNEK MÁCHA</b>
-    </p><p>
-    Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-    </p>
-</div></div></div></div>
-
-<p>Během dne se lidé v Praze soustřeďují v okolí administrativních center a obchodů, po poledni se tak nejvíc zahustí okolí Andělu, centrum Prahy (Vodičkova ulice a Petrské náměstí) a Brumlovka nedaleko Budějovické. Na poslední jmenované adrese sídlí řada velkých korporací, mezi nimi i Microsoft nebo ČEZ. Pro srovnání, na zmíněných místech je ve „špičce“ okolo šesti stovek osob na jeden hektar, průměr Prahy je 25 obyvatel na <a href="https://cs.wikipedia.org/wiki/Hektar">hektar</a> (Václavské náměstí má rozlohu asi 4 hektary).</p>
-<p>Naopak v noci se nejvíc lidí se „namačká“ ve Vršovicích, jde o 430 osob na hektar.</p>
-<p>Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních operátorů zpracoval pražský <a href="http://www.iprpraha.cz/">Institut plánování a rozvoje</a>.</p>
-</div><div class="row-main row-main--article"><i>Pokud vás zajímá, „kolik“ lidí bývá ve dne a v noci ve vaší čtvrti, najděte si ji na mapě, přepněte se na časové řezy, vyberte přepínač hustota osob a potom pohybujte „posuvníkem“ nahoře.</i></div><div class="row-main row-main--narrow">
-
-<h2 id="data-na-prodej">Data na prodej</h2>
-<div class="b-inline b-inline--right"><div class="b-inline__wrap"><div class="b-inline__content"><div class="text-sm">
-    <p>
-    <b>KAREL HYNEK MÁCHA</b>
-    </p><p>
-    Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-    </p>
-</div></div></div></div>
-
-<p>I pokud netelefonujeme nebo neposíláme SMS, telefon pravidelně komunikuje s vysílači v síti mobilního operátora. Z dat o síle signálu a použité anténě je možné odvodit, kde se přibližně telefon nachází a jak dlouhou dobu na místě strávil.</p>
-<p>Mobilní operátor má <a href="https://www.zakonyprolidi.cz/cs/2005-127/zneni-20160919#p97-3">„zákonnou povinnost“</a> takové informace uchovávat, a to půl roku do minulosti, přistupovat k nim ale mohou jen bezpečnostní složky, typicky policie nebo rozvědka.</p>
-<p>Operátoři ale obdobné informace mohou anonymizovat (tedy „zbavit“ identifikace konkrétního uživatele) a agregovat, tedy spojit informace o jednotlivcích do jakýchsi skupin. Výsledná obecná čísla pak přeprodávají dál, například marketingovým firmám či dopravním analytikům. Zpětně z nich nejde dovodit, kde se pohybuje každý jednotlivec, dávají ale určitý přehled o obecném chování obyvatel nějakého místa.</p>
-
+    
+    </div><div class="row-main row-main--article">
+    <form action="?" id='frm-geocode'>
+        <div class="inputs">
+        <input type="text" id="inp-geocode" placeholder="Zadejte obec či adresu...">
+        <input type="submit" id="inp-btn" value="Najít">
+        </div>
+    </form>
+    <div id="mapa_billboardy"></div>
+</div><div class="row-main row-main--narrow">
     <p class="meta meta--right meta--big">
       <!--[[ZPRAVY_SNOWFALL_AUTHORS:FOOTER]]-->
     </p>
@@ -362,6 +347,18 @@ eval("if (navigator.appName === \"Microsoft Internet Explorer\" || !!(navigator.
 
 /***/ }),
 
+/***/ "./js/gcode.js":
+/*!*********************!*\
+  !*** ./js/gcode.js ***!
+  \*********************/
+/*! exports provided: gCode */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"gCode\", function() { return gCode; });\nfunction gCode(map) {\n  var form = document.getElementById('frm-geocode');\n\n  form.onsubmit = function submitForm(event) {\n    event.preventDefault();\n    var text = document.getElementById('inp-geocode').value;\n\n    if (text === '') {\n      map.flyTo({\n        center: [15.3350758, 49.7417517],\n        zoom: 7\n      });\n    } else {\n      fetch(\"https://api.mapy.cz/geocode?query=\".concat(text)) // Mapy.cz geocoder\n      .then(function (res) {\n        return res.text();\n      }).then(function (str) {\n        return new window.DOMParser().parseFromString(str, 'text/xml');\n      }).then(function (results) {\n        var res = results.firstChild.children[0];\n\n        if (res.children.length === 0) {\n          document.getElementById('inp-geocode').style.borderColor = 'red';\n          return;\n        }\n\n        var x = parseFloat(res.children[0].attributes.x.value);\n        var y = parseFloat(res.children[0].attributes.y.value);\n\n        if (x < 12 || x > 19 || y < 48 || y > 52) {\n          // omezení geosearche na česko, plus mínus\n          document.getElementById('inp-geocode').style.borderColor = 'red';\n          return;\n        }\n\n        map.flyTo({\n          center: [x, y],\n          zoom: 10\n        });\n      })[\"catch\"](function (err) {\n        throw err;\n      });\n    }\n  };\n}\n\n//# sourceURL=webpack:///./js/gcode.js?");
+
+/***/ }),
+
 /***/ "./js/script.js":
 /*!**********************!*\
   !*** ./js/script.js ***!
@@ -370,7 +367,7 @@ eval("if (navigator.appName === \"Microsoft Internet Explorer\" || !!(navigator.
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _byeie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./byeie */ \"./js/byeie.js\");\n/* harmony import */ var _byeie__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_byeie__WEBPACK_IMPORTED_MODULE_0__);\n // loučíme se s IE\n\n/*\r\n// snadné načtení souboru pro každého!\r\nfetch(\"https://blabla.cz/blabla.json\")\r\n  .then(response => response.json()) // nebo .text(), když to není json\r\n  .then(data => {\r\n    // tady jde provést s daty cokoliv\r\n  });\r\n*/\n\n//# sourceURL=webpack:///./js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _byeie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./byeie */ \"./js/byeie.js\");\n/* harmony import */ var _byeie__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_byeie__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _gcode__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./gcode */ \"./js/gcode.js\");\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\n/* eslint-disable quotes */\n\n/* eslint-disable quote-props */\n\n/* eslint-disable new-cap */\n // loučíme se s IE\n\n\nvar host = 'https://data.irozhlas.cz/billboardy-mapa';\n\nif (window.location.hostname === 'localhost') {\n  host = 'http://localhost/billboardy-mapa';\n}\n\nvar map = new mapboxgl.Map({\n  container: 'mapa_billboardy',\n  minZoom: 5,\n  maxZoom: 16,\n  style: {\n    'version': 8,\n    'sources': {\n      'raster-tiles': {\n        'type': 'raster',\n        'tiles': ['https://a.tile.openstreetmap.org/{z}/{x}/{y}.png'],\n        'tileSize': 256,\n        'attribution': 'Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, geocoder <a href=\"https://.mapy.cz/\">Mapy.cz</a>, data <a href=\"http://www.dicr.cz/\">Drážní inspekce ČR</a>.'\n      }\n    },\n    'layers': [{\n      'id': 'simple-tiles',\n      'type': 'raster',\n      'source': 'raster-tiles',\n      'minzoom': 4,\n      'maxzoom': 22\n    }]\n  },\n  center: [15.33507, 49.74175],\n  zoom: 6\n});\nmap.scrollZoom.disable();\nmap.addControl(new mapboxgl.NavigationControl());\n\nvar Legend =\n/*#__PURE__*/\nfunction () {\n  function Legend() {\n    _classCallCheck(this, Legend);\n  }\n\n  _createClass(Legend, [{\n    key: \"onAdd\",\n    value: function onAdd(map) {\n      this.map = map;\n      this.container = document.createElement('div');\n      this.container.id = 'legend';\n      this.container.innerHTML = 'Pro zobrazení konkrétních míst přibližte mapu.';\n      return this.container;\n    }\n  }, {\n    key: \"onRemove\",\n    value: function onRemove() {\n      this.container.parentNode.removeChild(this.container);\n      this.map = undefined;\n    }\n  }]);\n\n  return Legend;\n}();\n\nvar legend = new Legend();\nmap.addControl(legend, 'top-left');\nmap.on('load', function () {\n  map.addSource('nehody', {\n    'type': 'geojson',\n    'data': host + '/data/data.json'\n  });\n  map.addLayer({\n    'id': 'nehody-heat',\n    'type': 'heatmap',\n    'source': 'nehody',\n    'maxzoom': 12,\n    'paint': {\n      // Increase the heatmap weight based on frequency and property magnitude\n      'heatmap-weight': ['interpolate', ['linear'], ['+', ['get', 'ex'], ['get', 'tr'], ['get', 'lr']], 0, 0, 4, 1],\n      // Increase the heatmap color weight weight by zoom level\n      // heatmap-intensity is a multiplier on top of heatmap-weight\n      'heatmap-intensity': ['interpolate', ['linear'], ['zoom'], 0, 1, 15, 3],\n      // Color ramp for heatmap.  Domain is 0 (low) to 1 (high).\n      // Begin color ramp at 0-stop with a 0-transparancy color\n      // to create a blur-like effect.\n      'heatmap-color': ['interpolate', ['linear'], ['heatmap-density'], 0.0, 'rgba(252,187,161,0)', 0.2, 'rgb(252,146,114)', 0.4, 'rgb(251,106,74)', 0.6, 'rgb(239,59,44)', 0.8, 'rgb(203,24,29)', 1.0, 'rgb(153,0,13)'],\n      // polomer podle zoomu\n      'heatmap-radius': ['interpolate', ['linear'], ['zoom'], 0, 8, 4, 20],\n      // prechod mezi heatmapou a body\n      'heatmap-opacity': ['interpolate', ['linear'], ['zoom'], 7, 1, 10, 0]\n    }\n  });\n  map.addLayer({\n    'id': 'nehody-point',\n    'type': 'circle',\n    'source': 'nehody',\n    'minzoom': 5,\n    'paint': {\n      'circle-radius': 10,\n      // barva podle stavu zarizeni\n      'circle-color': ['match', ['get', 'stav'], 'odstraněno', 'rgba(49,130,189,0.5)', 'řešeno', 'rgba(222,45,38,0.5)', 'dílčí odstranění', 'rgba(230,85,13,0.5)', 'rgba(99,99,99,0.5)'],\n      'circle-stroke-color': 'white',\n      'circle-stroke-width': 1,\n      // prechod priuhlednosti mezi heatmapou a body\n      'circle-opacity': ['interpolate', ['linear'], ['zoom'], 7, 1, 8, 1]\n    }\n  });\n});\nmap.on('zoomend', function (e) {\n  if (map.getZoom() >= 8) {\n    document.getElementById('legend').innerHTML = 'Kliknutím vyberte místo nehod.';\n    map.getCanvas().style.cursor = 'default';\n  } else {\n    document.getElementById('legend').innerHTML = 'Pro zobrazení konkrétních míst přibližte mapu.';\n    map.getCanvas().style.cursor = 'grab';\n  }\n});\n\nfunction tratName(val) {\n  if (val.length > 4) {\n    return val;\n  } else {\n    return \"<i>bez jm\\xE9na</i>\";\n  }\n}\n\nmap.on('click', function (e) {\n  map.scrollZoom.enable();\n  var d = map.queryRenderedFeatures(e.point, {\n    layers: ['nehody-point']\n  });\n\n  if (d.length > 0) {\n    console.log(d[0].properties);\n    document.getElementById('legend').innerHTML = \"<b>Komunikace \".concat(d[0].properties.kom, \", \").concat(d[0].properties.stan, \". km</b><br>Stav: \").concat(d[0].properties.stav, \"<br>Typ za\\u0159\\xEDzen\\xED: \").concat(d[0].properties.typ);\n  }\n});\nObject(_gcode__WEBPACK_IMPORTED_MODULE_1__[\"gCode\"])(map);\n\n//# sourceURL=webpack:///./js/script.js?");
 
 /***/ })
 
