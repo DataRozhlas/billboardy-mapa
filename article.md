@@ -39,9 +39,13 @@ Na mapě tak převažují body „v řešení“. Tedy poutače, u kterých se n
 
 Osm desítek poutačů se pak podařilo odstranit jen z části, v praxi to vypadá tak, že je majitelé pouze něčím překryli. 
 
-Jenže kontrola přímo v terénu naznačuje další nesrovnalosti. Regionální zpravodajové například zjistili, že na silnici I/26 z Plzně do Draženova stojí pouze jeden klasický billboard, databáze jich ale eviduje desítky. Objevují se tam totiž vozíky s reklamou, které majitelé přesouvají tam a zpátky. Podle Dušana Pakandla, vedoucího odboru dopravy krajského úřadu Plzeňského kraje, o vozících ví, ale s každým přesunem o pár metrů musí od ředitelství dostat novou výzvu a situaci řešit od začátku. 
+Jenže kontrola přímo v terénu naznačuje další nesrovnalosti. Regionální zpravodajové Českého rozhlasu například zjistili, že na silnici I/26 z Plzně do Draženova stojí pouze jeden klasický billboard, databáze jich ale eviduje desítky. 
 
-„V evidenci jsou také reklamy, které nejsou čistě billboardy, ale například označení provozoven nebo vlajky u čerpacích stanic. Nicméně už zde mohlo dojít například ke změně potisku, který neodpovídá původnímu povolení,“ upřesňuje databázi Studecký. V některých případech naopak krajský úřad mohl posoudit, že je reklama v souladu s platnou legislativou. Nebylo tedy nutné je odstranit, v databázi jsou zaevidovány jako v řešení. 
+I tam se totiž objevují vozíky s reklamou, které majitelé přesouvají tam a zpátky. Podle Dušana Pakandla, vedoucího odboru dopravy krajského úřadu Plzeňského kraje, o vozících ví, ale s každým přesunem o pár metrů musí od ředitelství dostat novou výzvu a situaci řešit od začátku. „Problém je, že dojde-li k přemístění o pár metrů na jiný pozemek, tak už se jedná o novou reklamu,“ dodává. 
+
+Celý proces se tak prodlužuje. U některých dálnic pak ředitelství řeší i častá označení provozoven nebo vlajky u čerpacích stanic. 
+
+„Nejsou to čistě billboardy, nicméně už zde mohlo dojít například ke změně potisku, který neodpovídá původnímu povolení,“ upřesňuje databázi Studecký. V některých případech naopak krajský úřad mohl posoudit, že je reklama v souladu s platnou legislativou. Nebylo tedy nutné ji odstranit, v databázi jsou zaevidovány jako „v řešení“.
 
 Majitelé navíc v případě, že splní svou povinnost a reklamní plochu odstraní, nemusí nikoho informovat. 
 
@@ -88,3 +92,16 @@ Podle mluvčí krajského úřadu Ústeckého kraje Magdaleny Fraňkové ale pro
 Proč se likvidace nedaří v Moravskoslezském kraji, kde se podle evidence ředitelství zabývali pouze 27 poutači na dvou komunikacích, nechtěli tamní silničáři komentovat. „Máme prioritnější úkoly,“ odbyla dotazy serveru iROZHLAS.cz Simona Chlebounová z Ředitelství silnic a dálnic Ostrava. 
 
 Podle dat jsou naopak úspěšnější v Pardubickém kraji, podle databáze odstranili 96 procent. I tam ale bojují s obnovenými poutači. „Bohužel se nám kolikrát stalo, že již odstraněné reklamní zařízení bylo po čase opět na svém místě. Jednalo se o dvě reklamy. Takže jsme museli výzvu ve spolupráci s krajským úřadem zaslat opakovaně. Pořád se jejich počet snažíme minimalizovali,“ uvedla za tamní ředitelství Hana Hlaváčková.
+
+Boj s nelegálními billboardy si na ministerstvu dopravy přehazují jako horký brambor. Jejich konec sliboval naposledy exministr dopravy Vladimír Kremlík (za ANO), v červenci loňského roku pak Ředitelství silnic a dálnic vypsalo tendr na odstranění téměř 200 ploch z okolí pěti dálnic. Díky vynalézavosti inzerentů a komplikovanosti řízení je ale Česko bez billboardů v nedohlednu. 
+
+<div class="article--preview-box" role="dialog">
+  <div class="article--preview-box-switch">
+    <a href="" data-screen="desktop" class="article--preview-box-switch-active">Desktop</a>
+    |
+    <a href="" class="" data-screen="mobile">Mobil</a>
+    <button type="button" class="close article--preview-box-close" data-zpravy-dismiss="article--preview-box" aria-label="Close"><span aria-hidden="true">×</span></button>
+  </div>
+
+  <iframe class="pagepreview-preview" style="width: 100%;" src="/pagepreview/2c8227c322423ded7b9148e5259d1e13"></iframe>
+</div>
