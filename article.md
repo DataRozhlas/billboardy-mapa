@@ -1,5 +1,5 @@
-title: "Mapa:<br>Pryč je teprva třetina všech nelegálních poutačů, odstraněny měly být před třemi lety. Podívejte se, kde jich zůstává nejvíce"
-perex: "Devět kilometrů dálnice spojující Ostravu a Frýdek-Místek lemuje čtyřiadvacet reklamních ploch. Téměř po třech letech od rozhodnutí, že musí zmizet, se podle evidence Ředitelství silnic a dálnic kraji podařilo odstranit jen čtyři z nich. A D56 není výjimkou, podle ředitelství po celé České republice zůstává 4600 billboardů z téměř osmi tisíc. Unikatní mapa datových novinářů iROZHLAS.cz ukazuje, že zatímco Pardubický kraj se zbavil téměř všech poutačů, v Moravskoslezském či Královehradeckém kraji byli úspěšni jen v 17 procentech případů."
+title: "Mapa: Zmizela jen třetina nelegálních billboardů, odstraněny měly být před třemi lety. Podívejte se, kde jich zůstává nejvíc"
+perex: "Devět kilometrů dálnice spojující Ostravu a Frýdek-Místek lemuje čtyřiadvacet reklamních ploch. Po téměř třech letech od rozhodnutí, že musí zmizet, se podle evidence Ředitelství silnic a dálnic kraji podařilo odstranit jen čtyři z nich. A D56 není výjimkou, podle silničářů po republice zůstává 4600 billboardů z původních téměř osmi tisíc. Unikátní mapa ukazuje, že zatímco Pardubický kraj odstranil téměř všechny poutače, v Moravskoslezském či Královehradeckém kraji byli úspěšní ani ne u pětiny."
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='https://ctk.cz'>ČTK</a>"
 styles: ['https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.7.0/mapbox-gl.css']
@@ -8,7 +8,7 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 ---
 „Všechny reklamní plochy jsme Krajskému úřadu naprášili už dávno. Nicméně i když už se vlastníci pochlapí a reklamu sundají, třeba ji jen posunou o pár metrů dál. Je to boj s větrnými mlýny,“ uvedl pro server iROZHLAS.cz Zdeněk Kos ze správy Ředitelství silnic a dálnic Královehradeckého kraje. 
 
-Podle zákona musí ředitelství nejdříve kontaktovat krajský úřad, ten má za úkol najít vlastníka nelegální reklamy. A podle Kose nemá kapacitu na to, aby je našel a obeslal všechny. „Vyhledat a kontaktovat stovky vlastníků je administrativně náročné, dochází k němu tedy postupně,“ dodává. 
+Podle zákona musí ředitelství nejdříve kontaktovat krajský úřad, ten má za úkol najít vlastníka nelegální reklamy. A podle Kose nemá kapacitu na to, aby je našel a obeslal všechny. „Vyhledat a kontaktovat stovky vlastníků je administrativně náročné, dochází k němu tedy postupně,“ vysvětluje. 
 
 <wide>
 	<form action="?" id='frm-geocode'>
@@ -17,21 +17,17 @@ Podle zákona musí ředitelství nejdříve kontaktovat krajský úřad, ten m�
 		<input type="submit" id="inp-btn" value="Najít">
 		</div>
 	</form>
-	<div id="mapa_billboardy"></div>
+	<div class="embed" id="mapa_billboardy"></div>
 </wide>
 
-<br>
-
-<wide><i> Data na základě zákona o svobodném přístupu k informacím získali datoví novináři serveru iROZHLAS.cz. Opakovaně se přitom Ředistelství silnic a dálnic zveřejnění vyhýbalo. Body na mapě nemusí zcela odrážet aktuální situaci, jeden billboard může být zaznačen více krát. Právě proto, že podle ŘSD dochází k jejich přemisťování ze strany majitelů. Přesnější evidence ale neexistuje.</i></wide>
-
-<br>
+<wide><i>Data na základě <a href="https://www.zakonyprolidi.cz/cs/1999-106">zákona o svobodném přístupu k informacím</a> získali datoví novináři serveru iROZHLAS.cz, díky čemuž si mapu může poprvé prohlédnout i veřejnost. Ne všechny místa ale odpovídají realitě: někde již k odstranění došlo a silničáři o tom prozatím neví, jinde zase mohla přibýt nová nelegální reklama. Přesnější evidenci ale úřady k dispozici nemají.</i></wide></br>
 
 Situace je na mnoha místech podobná, zcela odstranit se podařilo zhruba 2766 poutačů. Jen u dálnice D1 jich na mostech, sloupech, oplocením či totemech Ředitelství silnic a dálnic eviduje 647.
 
 „Stává se, že je zařízení odstraněno, ať už vlastníkem nebo na základě výzvy Silničního správního úřadu. Odstranění je zaevidováno, ale následně je na stejném místě řešení obnoveno,“ potvrzuje pro server iROZHLAS.cz zkušenosti z Královehradeckého kraje Jan Studecký, tiskový mluvčí Ředitelství silnic a dálnic.
 
 <left>
-Od 1. září 2017 nesmějí stát reklamní poutače v ochranném pásmu 250 metrů od dálnice a 50 metrů od silnice první třídy. Jejich likvidace je u dálnic agendou Ředitelství silnic a dálnic, u silnic první třídy příslušného krajského úřadu. Pokud po výzvě úřadu majitel billboardu nereaguje, odstraní se na jeho náklady. Akci „kulový“ blesk odstartoval někdejší ministr dopravy Dan Ťok (ANO), který chtěl billboardy masivně likvidovat. Ťok sliboval, že poslední nelegální billboard z okolí dálnic zmizí do několika měsíců, nejsou odstraněny dosud.
+Od 1. září 2017 nesmějí stát reklamní poutače v ochranném pásmu 250 metrů od dálnice a 50 metrů od silnice první třídy. Jejich likvidace je u dálnic agendou Ředitelství silnic a dálnic, u silnic první třídy příslušného krajského úřadu. Pokud po výzvě úřadu majitel billboardu nereaguje, <a href="https://www.zakonyprolidi.cz/cs/1997-13#p25-8">odstraní se na jeho náklady</a>. Akci „kulový“ blesk odstartoval někdejší ministr dopravy Dan Ťok (ANO), který chtěl billboardy masivně likvidovat. Ťok sliboval, že poslední nelegální billboard z okolí dálnic zmizí do několika měsíců, nejsou odstraněny dosud.
 </left>
 
 Na mapě tak převažují reklamy v řešení, u kterých se musí proces rozjet znovu - jejich evidence ředitelstvím a předání na Silniční správní úřad, po kterém následuje nové řízení. 
@@ -78,12 +74,12 @@ U silnic první třídy je naopak za dodržování legislativy zodpovědný př�
   </div>
 </a>
 
-Právě v Ústí podle databáze odstranili od roku 2017 jen 19 procent všech nelegálních reklam. Méně úspěšní byli už jen ve zmíněných krajích Moravskoslezském a Královehradeckém. 
+Právě v Ústí podle databáze odstranili od roku 2017 jen 19 procent všech nelegálních reklam. Méně úspěšní byli už jen v krajích Moravskoslezském a Královehradeckém. 
 
-Přičinu rozdílů vidí Plechatý především v pomalém a málo úspěšném vyhledávání samotných majitelů ze strany příslušného úřadu. „Máme seznam ploch na odstranění, ten jsme odeslali Silničnímu správnímu úřadu v Ústeckém kraji. Rozhodnutí o odstranění se k nám ale dostává pomaleji než jinde,“ dodává.
+Příčinu rozdílů vidí Plechatý především v pomalém a málo úspěšném hledávání majitelů reklam. „Máme seznam ploch na odstranění, ten jsme odeslali Silničnímu správnímu úřadu v Ústeckém kraji. Rozhodnutí o odstranění se k nám ale dostává pomaleji než jinde,“ dodává.
 
 Podle mluvčí krajského úřadu Ústeckého kraje Magdaleny Fraňkové ale proces protahuje hlavně nečinnost ze stran majitelů. „Firmy na výzvy nereagují, případně reagují nesouhlasně a argumentují proti výzvě. Nutno říci, že se většinou jedná o velké reklamní firmy, se kterými komplikovaně a mnohdy neúspěšně svádí boj ohledně ploch i ministerstvo dopravy na dálnicích,“ vysvětlila pro server iROZHLAS.cz Fraňková.
 
-Co zpomaluje likvidaci v Moravskoslezském kraji, kde je podle evidence ředitelství pouze 27 poutačů na dvou komunikacích, se novinářům iROZHLAS.cz nepodařilo zjistit. „Máme prioritnější úkoly,“ reagovala na dotaz Simona Chlebounová z Ředitelství silnic a dálnic Ostrava. 
+Co zpomaluje likvidaci v Moravskoslezském kraji, kde je podle evidence ředitelství pouze 27 poutačů na dvou komunikacích, se nepodařilo zjistit. „Máme prioritnější úkoly,“ reagovala na dotaz Simona Chlebounová z Ředitelství silnic a dálnic Ostrava. 
 
-Opačnou zkušenost mají například v Pardubickém kraji, podle databáze odstranili 96 procent. I tam ale bojují se znovuobjevujícími se poutači. „Bohužel se nám kolikrát stalo, že již odstraněné reklamní zařízení bylo po čase opět na svém místě. Jednalo se o dvě reklamy. Takže jsme museli výzvu ve spolupráci s krajským úřadem zaslat opakovaně. Pořád se jejich počet snažíme minimalizovali,“ uvedla za tamní správu ředitelství Hana Hlaváčková.
+Opačnou zkušenost mají v Pardubickém kraji, podle databáze odstranili 96 procent. I tam ale bojují se znovuobjevujícími se poutači. „Bohužel se nám kolikrát stalo, že již odstraněné reklamní zařízení bylo po čase opět na svém místě. Jednalo se o dvě reklamy. Takže jsme museli výzvu ve spolupráci s krajským úřadem zaslat opakovaně. Pořád se jejich počet snažíme minimalizovali,“ uvedla za tamní správu ředitelství Hana Hlaváčková.

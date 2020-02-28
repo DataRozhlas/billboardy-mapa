@@ -22,7 +22,7 @@ const map = new mapboxgl.Map({
           'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png'
         ],
         'tileSize': 256,
-        'attribution': 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, geocoder <a href="https://.mapy.cz/">Mapy.cz</a>, data <a href="http://www.dicr.cz/">Drážní inspekce ČR</a>.'
+        'attribution': 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, geocoder <a href="https://.mapy.cz/">Mapy.cz</a>, data <a href="https://www.rsd.cz/wps/portal/">Ředitelství silnic a dálnic</a>.'
       }
     },
     'layers': [
@@ -46,7 +46,7 @@ class Legend {
     this.map = map
     this.container = document.createElement('div')
     this.container.id = 'legend'
-    this.container.innerHTML = 'Pro zobrazení konkrétních míst přibližte mapu.'
+    this.container.innerHTML = 'Pro detail klikněte na bod v mapě.'
     return this.container
   }
 
@@ -63,57 +63,6 @@ map.on('load', () => {
     'type': 'geojson',
     'data': host + '/data/data.json'
   })
-
-
-/*
-  map.addLayer(
-    {
-      'id': 'nehody-heat',
-      'type': 'heatmap',
-      'source': 'nehody',
-      'maxzoom': 12,
-      'paint': {
-        // Increase the heatmap weight based on frequency and property magnitude
-        'heatmap-weight': [
-          'interpolate', ['linear'], ['+', ['get', 'ex'], ['get', 'tr'], ['get', 'lr']],
-          0, 0,
-          4, 1
-        ],
-        // Increase the heatmap color weight weight by zoom level
-        // heatmap-intensity is a multiplier on top of heatmap-weight
-        'heatmap-intensity': [
-          'interpolate', ['linear'], ['zoom'],
-          0, 1,
-          15, 3
-        ],
-        // Color ramp for heatmap.  Domain is 0 (low) to 1 (high).
-        // Begin color ramp at 0-stop with a 0-transparancy color
-        // to create a blur-like effect.
-        'heatmap-color': [
-          'interpolate', ['linear'], ['heatmap-density'],
-          0.0, 'rgba(252,187,161,0)',
-          0.2, 'rgb(252,146,114)',
-          0.4, 'rgb(251,106,74)',
-          0.6, 'rgb(239,59,44)',
-          0.8, 'rgb(203,24,29)',
-          1.0, 'rgb(153,0,13)'
-        ],
-        // polomer podle zoomu
-        'heatmap-radius': [
-          'interpolate', ['linear'], ['zoom'],
-          0, 8,
-          4, 20
-        ],
-        // prechod mezi heatmapou a body
-        'heatmap-opacity': [
-          'interpolate', ['linear'], ['zoom'],
-          7, 1,
-          10, 0
-        ]
-      }
-    }
-  )
-  */
 
   map.addLayer(
     {
@@ -149,13 +98,8 @@ map.on('load', () => {
 })
 
 map.on('zoomend', e => {
-  if (map.getZoom() >= 8) {
-    document.getElementById('legend').innerHTML = 'Kliknutím vyberte místo nehod.'
-    map.getCanvas().style.cursor = 'default'
-  } else {
-    document.getElementById('legend').innerHTML = 'Pro zobrazení konkrétních míst přibližte mapu.'
-    map.getCanvas().style.cursor = 'grab'
-  }
+  document.getElementById('legend').innerHTML = 'Kliknutím vyberte místo nehod.'
+  map.getCanvas().style.cursor = 'default'
 })
 
 function tratName (val) {
@@ -166,11 +110,19 @@ function tratName (val) {
   }
 }
 
+function nicer(v) {
+  if (v) {
+    return ', ' + v + ' km'
+  } else {
+    return ''
+  }
+}
+
 map.on('click', e => {
   map.scrollZoom.enable()
   const d = map.queryRenderedFeatures(e.point, { layers: ['nehody-point'] })
   if (d.length > 0) {
-    document.getElementById('legend').innerHTML = `<b>Komunikace ${d[0].properties.kom}, ${d[0].properties.stan}. km</b><br>Stav: ${d[0].properties.stav}<br>Typ zařízení: ${d[0].properties.typ}`
+    document.getElementById('legend').innerHTML = `<b>Silnice č. ${d[0].properties.kom}${nicer(d[0].properties.stan)}</b><br>Stav: ${d[0].properties.stav}<br>Typ zařízení: ${d[0].properties.typ || 'neznámý'}`
   }
 })
 
