@@ -24,13 +24,13 @@ Podle zákona musí ředitelství nejdříve kontaktovat krajský úřad, ten m�
 
 Situace je na mnoha místech podobná, zcela odstranit se podařilo zhruba 2766 poutačů. Jen u dálnice D1 jich na mostech, sloupech, oplocením či totemech Ředitelství silnic a dálnic eviduje 647.
 
-„Stává se, že je zařízení odstraněno, ať už vlastníkem nebo na základě výzvy Silničního správního úřadu. Odstranění je zaevidováno, ale následně je na stejném místě řešení obnoveno,“ potvrzuje pro server iROZHLAS.cz zkušenosti z Královehradeckého kraje Jan Studecký, tiskový mluvčí Ředitelství silnic a dálnic.
+„Stává se, že je zařízení odstraněno, ať už vlastníkem nebo na základě výzvy Silničního správního úřadu. Odstranění je zaevidováno, ale následně je na stejném místě řešení obnoveno, právě proto, že se objeví poutač znovu, jen o kousek dál,“ potvrzuje pro server iROZHLAS.cz zkušenosti z Královehradeckého kraje Jan Studecký, tiskový mluvčí Ředitelství silnic a dálnic.
 
 <left>
 Od 1. září 2017 nesmějí stát reklamní poutače v ochranném pásmu 250 metrů od dálnice a 50 metrů od silnice první třídy. Jejich likvidace je u dálnic agendou Ředitelství silnic a dálnic, u silnic první třídy příslušného krajského úřadu. Pokud po výzvě úřadu majitel billboardu nereaguje, <a href="https://www.zakonyprolidi.cz/cs/1997-13#p25-8">odstraní se na jeho náklady</a>. Akci „kulový“ blesk odstartoval někdejší ministr dopravy Dan Ťok (ANO), který chtěl billboardy masivně likvidovat. Ťok sliboval, že poslední nelegální billboard z okolí dálnic zmizí do několika měsíců, nejsou odstraněny dosud.
 </left>
 
-Na mapě tak převažují reklamy v řešení, u kterých se musí proces rozjet znovu - jejich evidence ředitelstvím a předání na Silniční správní úřad, po kterém následuje nové řízení. 
+Na mapě převažují reklamní poutače v řešení, tedy ty, u kterých se nepodařilo majitele najít nebo se u nich musí proces rozjet znovu - jejich evidence ředitelstvím a předání na Silniční správní úřad, po kterém následuje nové řízení. 
 
 Osm desítek poutačů se pak podařilo odstranit jen z části, v praxi to vypadá tak, že je majitelé pouze něčím překryli. 
 
