@@ -23,6 +23,9 @@ def ass(val):
 d['KATASTRÁLNÍ ÚZEMÍ'].apply(lambda x: ass(x))
 
 # %%
+d[d['KATASTRÁLNÍ ÚZEMÍ'] != d['KATASTRÁLNÍ ÚZEMÍ']]
+
+# %%
 d['TYP ZAŘÍZENÍ'].value_counts()
 # %%
 trans = Transformer.from_crs('EPSG:2065', 'EPSG:4326')
@@ -56,5 +59,11 @@ with open('../data/data.json', 'w', encoding='utf-8') as f:
             'type': 'FeatureCollection',
             'features': out
 }, ensure_ascii=False))
+
+# %%
+da = pd.read_csv('./bill_kraje.csv')
+
+# %%
+da.groupby('NAZ_CZNUTS3').stav.value_counts(normalize=True).to_excel('./stats.xlsx')
 
 # %%
