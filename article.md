@@ -93,15 +93,6 @@ Proč se likvidace nedaří v Moravskoslezském kraji, kde se podle evidence ře
 
 Podle dat jsou naopak úspěšnější v Pardubickém kraji, podle databáze odstranili 96 procent. I tam ale bojují s obnovenými poutači. „Bohužel se nám kolikrát stalo, že již odstraněné reklamní zařízení bylo po čase opět na svém místě. Jednalo se o dvě reklamy. Takže jsme museli výzvu ve spolupráci s krajským úřadem zaslat opakovaně. Pořád se jejich počet snažíme minimalizovali,“ uvedla za tamní ředitelství Hana Hlaváčková.
 
-Boj s nelegálními billboardy si na ministerstvu dopravy přehazují jako horký brambor. Jejich konec sliboval naposledy exministr dopravy Vladimír Kremlík (za ANO), v červenci loňského roku pak Ředitelství silnic a dálnic vypsalo tendr na odstranění téměř 200 ploch z okolí pěti dálnic. Díky vynalézavosti inzerentů a komplikovanosti řízení je ale Česko bez billboardů v nedohlednu. 
+Boj s nelegálními billboardy si na ministerstvu dopravy přehazují jako horký brambor. Jejich konec sliboval naposledy exministr dopravy Vladimír Kremlík (za ANO), v červenci loňského roku pak Ředitelství silnic a dálnic vypsalo tendr na odstranění téměř 200 ploch z okolí pěti dálnic. Díky vynalézavosti inzerentů a komplikovanosti řízení je ale Česko bez billboardů v nedohlednu.
 
-<div class="article--preview-box" role="dialog">
-  <div class="article--preview-box-switch">
-    <a href="" data-screen="desktop" class="article--preview-box-switch-active">Desktop</a>
-    |
-    <a href="" class="" data-screen="mobile">Mobil</a>
-    <button type="button" class="close article--preview-box-close" data-zpravy-dismiss="article--preview-box" aria-label="Close"><span aria-hidden="true">×</span></button>
-  </div>
-
-  <iframe class="pagepreview-preview" style="width: 100%;" src="/pagepreview/2c8227c322423ded7b9148e5259d1e13"></iframe>
-</div>
+<!--[[ZPRAVY_PHOTOGALLERY_PLACEHOLDER:2]]-->
