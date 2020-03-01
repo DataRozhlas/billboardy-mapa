@@ -23,7 +23,9 @@ I to lze vyčíst z dosud nezveřejněné mapy, kterou se podařilo serveru iROZ
 
 <wide><i>Data na základě <a href="https://www.zakonyprolidi.cz/cs/1999-106">zákona o svobodném přístupu k informacím</a> získali datoví novináři serveru iROZHLAS.cz, díky čemuž si mapu může poprvé prohlédnout i veřejnost. Ne všechna místa ale odpovídají realitě: někde již k odstranění došlo a silničáři o tom prozatím neví, jinde zase mohla přibýt nová nelegální reklama. Přesnější evidenci ale úřady k dispozici nemají.</i></wide></br>
 
-„Všechny reklamní plochy jsme krajskému úřadu ‚naprášili‘ už dávno. Nicméně i když už se vlastníci pochlapí a reklamu sundají, třeba ji jen posunou o pár metrů dál. Je to boj s větrnými mlýny,“ uvedl pro server iROZHLAS.cz Zdeněk Kos ze správy Ředitelství silnic a dálnic Královéhradeckého kraje. 
+„Všechny reklamní plochy jsme krajskému úřadu ‚naprášili‘ už dávno. Nicméně i když už se vlastníci pochlapí a reklamu sundají, třeba ji jen posunou o pár metrů dál. Je to boj s větrnými mlýny,“ uvedl pro server iROZHLAS.cz Zdeněk Kos ze správy Ředitelství silnic a dálnic Královéhradeckého kraje.
+
+## Odstraněné reklamy se vrací
 
 Podle zákona musí ředitelství nejdříve kontaktovat krajský úřad, ten má za úkol najít vlastníka nelegální reklamy. A podle Kose nemá kapacitu na to, aby je našel a obeslal všechny. „Vyhledat a kontaktovat stovky vlastníků je administrativně náročné, dochází k němu tedy postupně,“ vysvětluje. 
 
@@ -39,7 +41,9 @@ Na mapě tak převažují body „v řešení“. Tedy poutače, u kterých se n
 
 Osm desítek poutačů se pak podařilo odstranit jen zčásti, v praxi to vypadá tak, že je majitelé pouze něčím překryli. 
 
-Jenže kontrola přímo v terénu naznačuje další nesrovnalosti. Regionální zpravodajové Českého rozhlasu například zjistili, že na silnici I/26 z Plzně do Draženova stojí pouze jeden klasický billboard, databáze jich ale eviduje desítky. 
+Jenže kontrola přímo v terénu naznačuje další nesrovnalosti. Regionální zpravodajové Českého rozhlasu například zjistili, že na silnici I/26 z Plzně do Draženova stojí pouze jeden klasický billboard, databáze jich ale eviduje desítky.
+
+## Reklamy na kolečkách stačí posunout
 
 I tam se totiž objevují vozíky s reklamou, které majitelé přesouvají tam a zpátky. Podle Dušana Pakandla, vedoucího odboru dopravy krajského úřadu Plzeňského kraje, o vozících ví, ale s každým přesunem o pár metrů musí od ředitelství dostat novou výzvu a situaci řešit od začátku. „Problém je, že dojde-li k přemístění o pár metrů na jiný pozemek, tak už se jedná o novou reklamu,“ dodává. 
 
@@ -54,6 +58,7 @@ Majitelé navíc v případě, že splní svou povinnost a reklamní plochu odst
 Právě ministerstvo dopravy odpovídá za billboardy okolo dálnic. Podle Jemelky jich bylo odstraněno téměř 1151. 
 
 ## Horký brambor
+
 U silnic první třídy je naopak za dodržování legislativy zodpovědný příslušný krajský úřad. 
 
 „Reklamy u silnic nejsou náš majetek, proto dáváme požadavky na krajský úřad, že reklama není v souladu s platnou legislativou. Odstranit je můžeme až v momentu, kdy dostaneme pokyn od krajského úřadu,“ vysvětluje pro server iROZHLAS.cz Vít Plechatý z Ředitelství silnic a dálnic Ústeckého kraje. 
@@ -88,6 +93,8 @@ Právě v Ústí podle databáze odstranili od roku 2017 jen 19 procent všech n
 Příčinu rozdílů vidí Plechatý především v pomalém a málo úspěšném vyhledávání majitelů reklam. „Máme seznam ploch na odstranění, ten jsme odeslali Silničnímu správnímu úřadu v Ústeckém kraji. Rozhodnutí o odstranění se k nám ale dostává pomaleji než jinde,“ dodává.
 
 Podle mluvčí Krajského úřadu Ústeckého kraje Magdaleny Fraňkové ale proces protahuje hlavně nečinnost ze stran majitelů. „Firmy na výzvy nereagují, případně reagují nesouhlasně a argumentují proti výzvě. Nutno říci, že se většinou jedná o velké reklamní firmy, se kterými komplikovaně a mnohdy neúspěšně svádí boj ohledně ploch i ministerstvo dopravy na dálnicích,“ vysvětlila pro server iROZHLAS.cz Fraňková.
+
+## Důležitější úkoly
 
 Proč se likvidace nedaří v Moravskoslezském kraji, kde se podle evidence ředitelství zabývali pouze 27 poutači na dvou komunikacích, nechtěli tamní silničáři komentovat. „Máme prioritnější úkoly,“ odbyla dotazy serveru iROZHLAS.cz Simona Chlebounová z Ředitelství silnic a dálnic Ostrava. 
 
