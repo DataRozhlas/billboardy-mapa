@@ -98,7 +98,7 @@ map.on('load', () => {
 })
 
 map.on('zoomend', e => {
-  document.getElementById('legend').innerHTML = 'Kliknutím vyberte místo nehod.'
+  document.getElementById('legend').innerHTML = 'Kliknutím vyberte reklamní zařízení na mapě.'
   map.getCanvas().style.cursor = 'default'
 })
 
